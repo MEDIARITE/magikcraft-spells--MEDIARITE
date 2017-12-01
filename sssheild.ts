@@ -10,7 +10,7 @@ const magik = magikcraft.io;
 
 
 
-function sheild() {
+function sssheild() {
 
     const times = 5 * 1000 / 1; // 5 seconds, every 1ms
 
