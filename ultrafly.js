@@ -1,4 +1,4 @@
 const magik = magikcraft.io;
-function fly (){
+function ultrafly (){
     magik.volare(10000000000000000000000000000000000000000000000);
 }
