@@ -14,6 +14,6 @@ function binary(letter){
 }
 
 const a = binary(font.a);
-a.forEach(line=>magik.dixit(line));
+a.forEach(line=>magik.dixit(line.padStart("0",8)));
 
 }
