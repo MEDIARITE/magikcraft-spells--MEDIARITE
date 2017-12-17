@@ -50,6 +50,6 @@ function _write(char = 'a') {
 
         line.forEach((char, charnum) => (char == "1" &&
 
-            getBlock(x + charnum, y - linenum, z).setType(STONE))));
+            getBlock(x + charnum, y - linenum, z).setType(DIAMOND_BLOCK))));
 
 }
