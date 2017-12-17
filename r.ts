@@ -16,7 +16,7 @@ function r() {
 
     let n = times;
 
-    magik.setTimeout(shield, 300);
+    magik.setTimeout(shield, 1200);
 
 
 
