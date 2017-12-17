@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function write() {
+function write(char="a") {
 	
     const font = {
     a:[0,24,36,102,126,126,102,102],
@@ -19,7 +19,7 @@ const binary=letter=>
     line.toString(2).padStart(8,"0"))
 
 
-const a = binary(font.a);
-a.forEach(line=>magik.dixit(line))
-
+const a = binary(font[char]);
+//a.forEach(line=>magik.dixit(line))
+const here = magik.hic();
 }
