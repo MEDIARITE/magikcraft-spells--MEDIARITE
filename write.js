@@ -64,5 +64,5 @@ function write(letters = 'abc') {
 
         line.forEach((char, charnum) => (char == '1' &&
 
-            getBlock(x + charnum + (letternum * 10), y - linenum, z).setType(BLOCK)))))
+            getBlock(x + charnum + (letternum * 10), y + linenum, z).setType(BLOCK)))))
 }
