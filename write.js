@@ -22,8 +22,8 @@ const fontData = {
 
     i: [255, 126, 24, 24, 24, 24, 126, 255],
 
-    ":": [126,129,165,129,165,189,129,126],
-
+    ":": [126,129,189,165,129,165,129,129],
+         
 } 
 
 
@@ -64,5 +64,5 @@ function write(letters = 'abc') {
 
         line.forEach((char, charnum) => (char == '1' &&
 
-            getBlock(x + charnum + (letternum * 10), y - linenum, z).setType(BLOCK)))))
+            getBlock(x + charnum + (letternum * 10), y + linenum, z).setType(BLOCK)))))
 }
