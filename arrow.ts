@@ -18,6 +18,6 @@ function arrow() {
 
 
 
-    magik.doNTimes(shoot, 10000000, 1);
+    magik.doNTimes(shoot, 10000000, 10);
 
 }
